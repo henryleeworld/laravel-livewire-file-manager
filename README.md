@@ -1,4 +1,4 @@
-# Laravel 11 Livewire 檔案總管
+# Laravel 12 Livewire 檔案總管
 
 引入 livewire-filemanager 的 filemanager 套件來擴增像應用中的 Dropbox，能集中存放靜態內容，協助使用者管理內容。
 
@@ -43,8 +43,8 @@ $ php artisan queue:work
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/SqaSBXk.png)
+![](https://i.imgur.com/NjEyDGK.png)
 > 登入後方允許進行檔案管理，考量防止未經授權的上傳及在多使用者模式下正常工作
 
-![](https://i.imgur.com/j5e4mAc.gif)
+![](https://i.imgur.com/bx3KP42.gif)
 > 支援多檔案選擇及伺服器儲存集中管理
