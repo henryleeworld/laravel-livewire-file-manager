@@ -16,6 +16,8 @@ return [
     'modified' => '已修改',
     'delete_items' => '刪除項目',
     'delete_items_warning' => '您確實要刪除這些項目嗎？',
+    'rename_folder' => '重新命名資料夾',
+    'rename_file' => '重新命名檔案',
     'actions' => [
         'cancel' => '取消',
         'save' => '儲存',
@@ -27,5 +29,9 @@ return [
     ],
     'validation' => [
         'folder_name_required' => '資料夾名稱為必填',
+        'max_folder_depth_exceeded' => '無法建立資料夾。已超出最大資料夾 :max 層深度限制。',
+        'file_invalid' => '檔案無效。',
+        'file_too_large' => '檔案大小超出限制。',
+        'file_type_not_allowed' => '不支援此檔案類型。',
     ],
 ];

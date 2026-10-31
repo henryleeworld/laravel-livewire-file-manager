@@ -5,7 +5,7 @@ return [
     'root_folder_not_configurated_help' => 'Esta pasta será a sua pasta raiz do gerenciador de arquivos',
     'add_your_first_folder' => 'Adicione sua primeira pasta',
     'root_folder_name' => 'Nome da pasta',
-    'elements' => '{0} Nenhum elemento|[1] elemento|[2,*] :value elementos',
+    'elements' => '{0} Nenhum elemento|[1] 1 elemento|[2,*] :value elementos',
     'add_a_file' => 'Adicionar um arquivo',
     'search' => 'Pesquisar',
     'folder_already_exists' => 'Já existe uma pasta com esse nome no diretório atual.',
@@ -16,6 +16,8 @@ return [
     'modified' => 'Modificado',
     'delete_items' => 'Excluir itens',
     'delete_items_warning' => 'Tem certeza de que deseja excluir estes itens?',
+    'rename_folder' => 'Renomear a pasta',
+    'rename_file' => 'Renomear o arquivo',
     'actions' => [
         'cancel' => 'Cancelar',
         'save' => 'Salvar',
@@ -27,5 +29,9 @@ return [
     ],
     'validation' => [
         'folder_name_required' => 'O nome da pasta é obrigatório',
+        'max_folder_depth_exceeded' => 'Não é possível criar a pasta. A profundidade máxima de :max seria excedida.',
+        'file_invalid' => 'O ficheiro é inválido.',
+        'file_too_large' => 'O ficheiro é demasiado grande.',
+        'file_type_not_allowed' => 'Este tipo de ficheiro não é permitido.',
     ],
 ];

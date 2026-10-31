@@ -14,10 +14,10 @@
             </div>
         </div>
     </div>
-@push('styles')
-    @filemanagerStyles
-@endpush
-@push('scripts')
-    @filemanagerScripts
-@endpush
+    @push('styles')
+        @filemanagerStyles
+    @endpush
+    @push('scripts')
+        @filemanagerScripts
+    @endpush
 </x-app-layout>

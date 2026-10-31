@@ -5,7 +5,7 @@ return [
     'root_folder_not_configurated_help' => 'Ce dossier sera votre dossier de départ de votre gestionnaire de fichiers',
     'add_your_first_folder' => 'Ajoutez votre premier dossier',
     'root_folder_name' => 'Intitulé de votre dossier de départ',
-    'elements' => '{0} Aucun élément|1 élément|[2,*] :value éléments',
+    'elements' => '{0} Aucun élément|[1] 1 élément|[2,*] :value éléments',
     'add_a_file' => 'Ajouter un fichier',
     'search' => 'Rechercher',
     'folder_already_exists' => 'Le dossier existe déjà',
@@ -16,6 +16,8 @@ return [
     'modified' => 'Modifié',
     'delete_items' => 'Supprimer les éléments',
     'delete_items_warning' => 'Etes-vous sur de vouloir supprimer ces éléments ?',
+    'rename_folder' => 'Renommer le dossier',
+    'rename_file' => 'Renommer le fichier',
     'actions' => [
         'cancel' => 'Annuler',
         'save' => 'Enregistrer',
@@ -27,5 +29,9 @@ return [
     ],
     'validation' => [
         'folder_name_required' => 'Le nom du dossier est obligatoire',
+        'max_folder_depth_exceeded' => 'Impossible de créer le dossier. La profondeur maximale de :max serait dépassée.',
+        'file_invalid' => 'Le fichier est invalide.',
+        'file_too_large' => 'Le fichier est trop volumineux.',
+        'file_type_not_allowed' => 'Ce type de fichier n\'est pas autorisé.',
     ],
 ];

@@ -5,7 +5,7 @@ return [
     'root_folder_not_configurated_help' => 'Bu klasör, dosya yöneticinizin ana klasörü olacak',
     'add_your_first_folder' => 'İlk klasörünüzü ekleyin',
     'root_folder_name' => 'Klasör adı',
-    'elements' => '{0} Öğe yok|[1] öğe|[2,*] :value öğe',
+    'elements' => '{0} Öğe yok|[1] 1 öğe|[2,*] :value öğe',
     'add_a_file' => 'Dosya ekle',
     'search' => 'Ara',
     'folder_already_exists' => 'Bu isimde bir klasör zaten mevcut klasörde bulunuyor.',
@@ -16,6 +16,8 @@ return [
     'modified' => 'Değiştirilme',
     'delete_items' => 'Öğeleri sil',
     'delete_items_warning' => 'Bu öğeleri silmek istediğinizden emin misiniz?',
+    'rename_folder' => 'Klasörü yeniden adlandır',
+    'rename_file' => 'Dosyayı yeniden adlandır',
     'actions' => [
         'cancel' => 'İptal',
         'save' => 'Kaydet',
@@ -27,5 +29,9 @@ return [
     ],
     'validation' => [
         'folder_name_required' => 'Klasör adı gereklidir',
+        'max_folder_depth_exceeded' => 'Klasör oluşturulamaz. Maksimum :max klasör derinliği aşılacaktır.',
+        'file_invalid' => 'Dosya geçersiz.',
+        'file_too_large' => 'Dosya çok büyük.',
+        'file_type_not_allowed' => 'Bu dosya türüne izin verilmiyor.',
     ],
 ];
